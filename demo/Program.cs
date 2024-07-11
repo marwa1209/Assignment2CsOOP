@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Encapculation
+            Employee employee = new Employee("marwa", 22, 20000);
+            Console.WriteLine(employee);
+            #endregion
+
         }
     }
 }
